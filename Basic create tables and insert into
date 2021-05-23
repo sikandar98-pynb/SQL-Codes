@@ -1,0 +1,40 @@
+//Create Table Employee with all the employee information
+CREATE TABLE Employee 
+(
+Employee_ID int,
+Employee_Fname varchar(100),
+Employee_Lname varchar(100),
+Age int,
+Gender varchar(10)
+)
+---
+// Create Table Salary which would include all the details of the salary including the Job details.
+CREATE TABLE Salary
+(
+Employee_ID int,
+Job_ID int,
+Job_Role varchar(100),
+Salary float(10,2)
+Job_Location longtext
+)
+---
+// Query used to insert into Employee Table:
+INSERT INTO TABLE Employee VALUES
+(1,'John','Cory',28,'Male'),
+(2,'Michael','Jay',30,'Male'),
+(3,'Alex','Coople',35,'Male'),
+(4,'Abhishek','Kumar',30,'Male'),
+(5,'Neesha', Dande',40,'Female'),
+(6,'Jill','Cole',39,'Female'),
+(7,'Min','Peng',28,'Female')
+)
+---
+// Query used to insert values into the Salary 
+INSERT INTO TABLE Salary VALUES
+(1,1001,'Sr.Data Analyst',1000000.40,'Pune'),
+(2,1010,'Data Engineer',500000.50,'Pune'),
+(3,1002,'Sr.Data Analyst',1000000.40,'Mumbai'),
+(4,1020,'Business Analyst',700000.60,'Pune'),
+(5,1121,'Manager-Analytics,200000.50,'Pune'),
+(6,1120,'Finance Analyst',500000.70,'Indiana'),
+(7,1006,'Jr.Finance Analyst',600000.30,'Indiana')
