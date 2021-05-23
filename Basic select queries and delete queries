@@ -1,0 +1,9 @@
+// After Inserting values in the Employee table and the Salary Table, the user wishes to select the values
+SELECT * FROM Employee // This would provide the user with all the values inserted in the table.
+//Similarly
+SELECT * FROM Salary // This would provide the user with all the values inserted in the table.
+---
+// If the user wishes to delete a particular record from the table, following is the query:
+
+DELECT FROM Employee
+  WHERE Employee_ID = 7       // This would delete all the records in the Employee Table where the Employee_ID is equal to 7.
